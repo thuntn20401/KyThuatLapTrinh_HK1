@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BAI4 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\MYLINH~1\AppData\Local\Temp\RSPA12B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/BAI4.pdb" /debug /machine:I386 /out:"Debug/BAI4.exe" /pdbtype:sept 
+".\Debug\BAI4.OBJ"
+]
+Creating command line "link.exe @C:\Users\MYLINH~1\AppData\Local\Temp\RSPA12B.tmp"
+<h3>Output Window</h3>
+Linking...
+BAI4.OBJ : error LNK2001: unresolved external symbol "void __cdecl viTriDiemLoiNhoNhat(int (* const)[100],int,int)" (?viTriDiemLoiNhoNhat@@YAXQAY0GE@HHH@Z)
+Debug/BAI4.exe : fatal error LNK1120: 1 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+BAI4.exe - 2 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
